@@ -29,34 +29,34 @@ export default function Sidebar({
         </Button>
 
         {/* Logo */}
-        <h2 className="text-xl font-bold">MyApp</h2>
+        <h2 className="text-xl font-bold mx-auto">Dev Space</h2>
 
         {/* Nav Links */}
         <nav className="mt-6 space-y-2 flex-1">
           <Link
             href="/"
-            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100 bg-red-600 text-white"
+            className="flex text-sm items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100 bg-red-600 text-white"
           >
             <Home className="h-5 w-5" />
             Dashboard
           </Link>
           <Link
             href="/user/profile"
-            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
+            className="flex text-sm items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
           >
             <User className="h-5 w-5" />
             Admin
           </Link>
           <Link
             href="/services"
-            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
+            className="flex text-sm items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
           >
             <Briefcase className="h-5 w-5" />
             Services
           </Link>
           <Link
             href="/contact"
-            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
+            className="flex text-sm items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100"
           >
             <Phone className="h-5 w-5" />
             Contact
