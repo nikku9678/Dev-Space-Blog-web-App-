@@ -19,7 +19,7 @@ export default function Navbar({
   setSidebarOpen: (open: boolean) => void;
 }) {
   return (
-    <header className="flex items-center justify-between bg-white border-b px-4 py-3 shadow-sm">
+    <header className="flex items-center justify-between px-4 py-3">
       <div className="flex items-center gap-2">
         {/* Hamburger (mobile only) */}
         <Button
