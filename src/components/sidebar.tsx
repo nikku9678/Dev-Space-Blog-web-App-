@@ -29,7 +29,7 @@ export default function Sidebar({
         </Button>
 
         {/* Logo */}
-        <h2 className="text-xl font-bold mx-auto">Dev Space</h2>
+       <Link href={"/"}> <h2 className="text-xl font-bold mx-auto">Dev Space</h2></Link>
 
         {/* Nav Links */}
         <nav className="mt-6 space-y-2 flex-1">
